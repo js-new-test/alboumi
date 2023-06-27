@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>FC667FC8-41FF-4D40-B758-8C3278DC2C68</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A---8.-Order-Confirmation" transform="translate(-635.000000, -257.000000)">
+            <g id="Sucess-badge" transform="translate(635.000000, 257.000000)">
+                <polygon id="Star" fill="#3EB557" points="48 86.5234375 38.6356645 95.0776935 33.2577187 83.5910154 21.3326288 87.9105414 20.7598161 75.2401839 8.08945861 74.6673712 12.4089846 62.7422813 0.922306541 57.3643355 9.4765625 48 0.922306541 38.6356645 12.4089846 33.2577187 8.08945861 21.3326288 20.7598161 20.7598161 21.3326288 8.08945861 33.2577187 12.4089846 38.6356645 0.922306541 48 9.4765625 57.3643355 0.922306541 62.7422813 12.4089846 74.6673712 8.08945861 75.2401839 20.7598161 87.9105414 21.3326288 83.5910154 33.2577187 95.0776935 38.6356645 86.5234375 48 95.0776935 57.3643355 83.5910154 62.7422813 87.9105414 74.6673712 75.2401839 75.2401839 74.6673712 87.9105414 62.7422813 83.5910154 57.3643355 95.0776935"></polygon>
+                <g id="check" transform="translate(24.000000, 24.000000)">
+                    <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="48" height="48"></rect>
+                    <polyline id="Path" stroke="#FFFFFF" stroke-width="3.52" stroke-linecap="round" stroke-linejoin="round" points="36 16 19.5 32 12 24.7272727"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

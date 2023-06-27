@@ -1,0 +1,19 @@
+div#LumiseDesign div#lumise-left>div.lumise-left-nav-wrp>ul.lumise-left-nav li:hover,
+#lumise-cliparts .lumise-cliparts-search i, #lumise-left .lumise-xitems-search i,
+#lumise-left #lumise-cliparts-preview>header>span,
+div#lumise-top-tools ul[data-mode-text] .text-format.selected,
+div#lumise-top-tools>ul.lumise-top-nav>li:hover [data-tip="true"] > i,
+div#lumise-top-tools>ul.lumise-top-nav>li.active [data-tip="true"] > i,
+ div#LumiseDesign div#lumise-navigations ul[data-block="right"]>li[data-tool="languages"] li:hover>i,
+ .lumise_sidebar ul li a:hover,
+ .lumise_sidebar ul li a.active,
+  .lumise_sidebar ul li a:hover i,
+  .lumise_sidebar ul li a.active i,
+  .lumise_content .lumise_table a,
+  .lumise_breadcrumb li span,
+  #lumise-popup ul li:hover, #LumiseDesign a, .lumise-color,
+  div#lumise-product nav>price, #lumise-left #lumise-x-thumbn-preview>header>span,
+   #lumise-cliparts .lumise-cliparts-search i, #lumise-templates .lumise-templates-search i,
+   #lumise-left .lumise-xitems-search i, .lumise_dashbroad a {
+    color: white !important;
+}

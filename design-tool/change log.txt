@@ -1,0 +1,61 @@
+03/01/2019
+[+] print bug not selected when change dropdown
+[#] make sessionlocal variable state when dropdown, if state == fase checked
+[*] hash : 2cca8dcd607566aec4da56227019f71f
+[-] lumise/core/assets/js/app.js
+*************************************
+[+] action add on not work
+[#] add permission 
+[#] location 
+	wp-content/uploads/lumise_data/addons/distress/index.php
+[*] hash : 16c5d76e6fcc163644405bd320b9c01f
+*************************************
+[+] upload image addon not work
+[#] location 
+	wp-content/uploads/lumise_data/addons/vendors/view/design.php
+	wp-content/uploads/lumise_data/addons/vendors/assets/js/script.js
+[*] hash : 2041789ab175815b8995a4644ae2d0b9
+*************************************
+[+] addon mydesign not show login
+[#] location 
+	wp-content/uploads/lumise_data/addons/mydesigns/index.php
+	wp-content/uploads/lumise_data/addons/mydesigns/assets/js/mydesigns.js
+[*] hash : e2eaa02a68001c7dac59221d7737866a
+*************************************
+02/01/2019
+[+] remove update hash 5f9d859a2c0b378a8db7d017e092dd60, make custom design not show
+[#] remove hash
+[*] hash : 0c95554b138717bff1ca7a42dcc1ef26
+*************************************
+29/12/2019
+[+] multi product same product_id but only detect 1 product quantity
+[-] lumise/lumise.php - line 1349
+[#] add check
+[*] hash : 09199e1fe4d7d285194da94841dc2d27
+*************************************
+28/12/2019
+[+] Update Fixed woo Checkout place order error
+[#] function lumise_lang make 500 http code
+*************************************
+[+] debug hook not work on wpp 3.x
+[-] lumise/lumise.php - line 126
+[#] woocommerce_add_order_item_meta is deprecated since version 3.0.0! Use woocommerce_new_order_item instead.
+[*] hash : 5f9d859a2c0b378a8db7d017e092dd60
+*************************************
+26/12/2019
+[+] Fixed woo Checkout place order error
+[-] lumise/lumise.php - line 1145
+[#] make json return
+[*] hash : b450dbe41097246dbfd0d37f0b54034e
+*************************************
+24/12/2019
+[+] Fixed can not change product when cart not null
+[-] lumise/core/assets/js/app.js - line 11341 & line 12413
+[#] make sessionStorage StartNew Button and check when load product
+[*] hash : 5fecb5125fdb9c9cf8f2e54802cfb020
+*************************************
+21/12/2019
+[+] Fixed share button error
+[-] lumise/core/assets/js/app.js - line 4302 & line 4304
+[*] find : https://twitter.com/intent/tweet?url=
+[#] change share.label to res.name

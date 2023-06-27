@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>12F9670A-0D98-4241-8CB0-434B1A5215F0</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A---UI-Style-Guide" transform="translate(-649.000000, -2540.000000)">
+            <g id="Icons" transform="translate(0.000000, 2495.000000)">
+                <g id="check-Circle" transform="translate(649.000000, 45.000000)">
+                    <circle id="Oval" fill="#062D7A" cx="16" cy="16" r="16"></circle>
+                    <path d="M20.2865518,12.299292 C20.6735422,11.9052654 21.3066815,11.8995615 21.700708,12.2865518 C22.0644248,12.6437737 22.0972632,13.2107319 21.7957847,13.6057551 L21.7134482,13.700708 L14.8384482,20.700708 C14.4766666,21.0690674 13.9009247,21.0974027 13.5062261,20.785714 L13.4115518,20.700708 L10.2865518,17.5188898 C9.89956149,17.1248633 9.90526545,16.491724 10.299292,16.1047337 C10.6630088,15.7475118 11.2304666,15.7248934 11.6199941,16.0334399 L11.7134482,16.1174738 L14.125,18.573 L20.2865518,12.299292 Z" id="tick" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

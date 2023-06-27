@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D328A8BE-301D-4557-96CC-341497DCF0CF</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M---Menu" transform="translate(-12.000000, -814.000000)">
+            <g id="Group" transform="translate(12.000000, 303.000000)">
+                <g id="menu-sign-in" transform="translate(0.000000, 511.000000)">
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                    <g id="log-in" transform="translate(4.000000, 4.000000)" stroke="#062D7A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M10.6666667,0 L14.2222222,0 C15.2040618,0 16,0.795938223 16,1.77777778 L16,14.2222222 C16,15.2040618 15.2040618,16 14.2222222,16 L10.6666667,16" id="Path"></path>
+                        <polyline id="Path" points="6.22222222 12.4444444 10.6666667 8 6.22222222 3.55555556"></polyline>
+                        <line x1="9.55401681" y1="8" x2="0" y2="8" id="Path"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

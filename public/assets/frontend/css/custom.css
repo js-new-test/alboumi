@@ -1,0 +1,124 @@
+.error{
+    color:red;
+    padding-left: 15px;
+    margin-bottom: 0px !important;
+}
+.desktop-google-map{
+    height: 275px;
+    width: 600px;
+}
+
+@media only screen and (max-width:480px) {
+    .mobile-google-map{
+        width: 390px;
+        height: 300px;
+    }
+}
+.mt12{
+  margin-top: 12px;
+}
+.facebook-btn{
+  text-decoration: none;
+}
+.facebook-btn:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.google-btn{
+  text-decoration: none;
+}
+.google-btn:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.wedding-book .wth{
+  margin-bottom: 0px!important;
+}
+.fill-btn-disabled{
+  height: 40px;
+  border-radius: 20px;
+  background-color: grey;
+  outline: none;
+  border: 0;
+  font-family: M_Sbold;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 18px;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  transition: all .3s;
+}
+.fill-btn-disabled:hover{
+	background: grey;
+  text-decoration: none;
+}
+
+.privacy .container ul {
+  font-family: O_Regular;
+  color: rgba(0,0,0,0.6);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+.gallery-close-btn.gallery-close-btn-prod-details{
+  z-index:9999999 !important;
+}
+
+.google-assets-btn{
+  background-image: url("../img/google/btn_google_signin_dark_normal_web.png");
+  padding: 0;
+  height: 44px;
+  width: 193px;
+  border: 1px solid #ccc;
+  color: #fff;
+  border-radius: 4px;  
+  background-size: 100%;
+}
+.google-assets-btn:focus{
+  background-image: url("../img/google/btn_google_signin_dark_focus_web.png");
+  transition: background-image 0.2s ease-in-out;
+}
+.google-assets-btn:visited,.google-assets-btn:active{
+  background-image: url("../img/google/btn_google_signin_dark_pressed_web.png");
+  transition: background-image 0.2s ease-in-out;
+}
+.google-assets-btn:disabled{
+  background-image: url("../img/google/btn_google_signin_dark_disabled_web.png");
+  transition: background-image 0.2s ease-in-out;
+}
+/*.facebook-btn{
+  margin-top: 3px;
+}*/
+.facebook-btn-new,.facebook-btn-new:hover{  
+  /*margin-top: 3px;*/
+  border: 1px solid #ccc;
+  text-decoration: none;
+  padding: 3px;
+  color: #fff;
+  border-radius: 4px;
+  height: 44px;
+  width: 193px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+}
+.facebook-btn-new .fb-bg{
+  background: #3b5998;
+  height: 100%;
+  border-radius: 2px;
+}
+.facebook-btn-new img{
+  width: 34px;
+  background: #fff;
+  /*margin: 3px;*/
+  padding: 7px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 5px;
+}

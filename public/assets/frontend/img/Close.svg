@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>001B8797-16A8-4492-9AC8-F1080C55DB22</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A---UI-Style-Guide" transform="translate(-1049.000000, -2544.000000)">
+            <g id="Icons" transform="translate(0.000000, 2495.000000)">
+                <g id="Close" transform="translate(1049.000000, 49.000000)">
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                    <g id="Group-4" transform="translate(5.000000, 5.000000)" fill="#062D7A">
+                        <path d="M0,6 L14,6 C14.5522847,6 15,6.44771525 15,7 C15,7.55228475 14.5522847,8 14,8 L0,8 C-0.55228475,8 -1,7.55228475 -1,7 C-1,6.44771525 -0.55228475,6 0,6 Z" id="Rectangle-Copy" transform="translate(7.000000, 7.000000) rotate(45.000000) translate(-7.000000, -7.000000) "></path>
+                        <path d="M0,6 L14,6 C14.5522847,6 15,6.44771525 15,7 C15,7.55228475 14.5522847,8 14,8 L0,8 C-0.55228475,8 -1,7.55228475 -1,7 C-1,6.44771525 -0.55228475,6 0,6 Z" id="Rectangle-Copy" transform="translate(7.000000, 7.000000) scale(-1, 1) rotate(45.000000) translate(-7.000000, -7.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

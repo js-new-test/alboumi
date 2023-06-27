@@ -1,0 +1,416 @@
+@import url("icons.css");
+@import url("simpline.css");
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto'), url(https://fonts.gstatic.com/s/roboto/v15/NJ4vxlgWwWbEsv18dAhqnn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+html{
+	overfllow: hidden;
+}
+html,body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto-Regular";
+	font-size: 14px;
+	color: #3a3a3a;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.tsd-loading {
+    display: inline-block;
+    background: rgb(255, 255, 255) url('../images/loading.gif') no-repeat center center;
+    width: 34px;
+    height: 34px;
+    background-size: 30px;
+    border-radius: 100%;
+}
+body.tsd-show-my-fonts #tsd-ggf-body{
+	/*opacity: 0.35;*/
+}
+body.tsd-fonts-manager #tsd-fonts-manager *{
+	transition: all 250ms;
+}
+body.tsd-fonts-manager #tsd-fonts-manager{
+	width: 100%;
+	box-sizing: border-box;
+	background: #f1f1f1;
+	padding: 20px;
+}
+body.tsd-fonts-manager #tsd-ggf-header{
+	display: inline-block;
+	width: 100%;
+	clear: both;
+}
+body.tsd-fonts-manager #tsd-ggf-header h3{
+    font-size: 24px;
+    float: left;
+}
+body.tsd-fonts-manager #tsd-ggf-header h3 small{
+	font-weight: normal;
+	font-size: 15px;
+	color: #aaa;
+}
+body.tsd-fonts-manager #tsd-ggf-header ul{
+    list-style: none;
+    margin: 0 0 30px 0;
+    background: #fff;
+    float: left;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.09);
+    box-sizing: border-box;
+    padding: 0px;
+}
+body.tsd-fonts-manager #tsd-ggf-header ul li{
+    float: left;
+    margin: 0px;
+    font-size: 14px;
+    padding: 0;
+    cursor: pointer;
+}
+body.tsd-fonts-manager #tsd-ggf-header ul li select{
+    background: #fff;
+    border: none;
+    -webkit-appearance: none;
+    text-align: center;
+    padding: 0px 30px;
+    box-shadow: none;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    height: 47px;
+    border-radius: 0px;
+    margin: 0px;
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+    outline: none;
+}
+
+body.tsd-fonts-manager #tsd-ggf-header ul li select option{
+	text-align: center;
+}
+body.tsd-fonts-manager #tsd-ggf-header ul li.tsd-ggf-load-time{
+	float: right;
+	padding: 14px 20px;
+	cursor: default;
+}
+body.tsd-fonts-manager #tsd-ggf-header ul li.tsd-ggf-load-time span{
+    padding: 3px 15px;
+    background: #50c150;
+    color: #fff;
+    border-radius: 12px;
+    margin-left: 5px;
+}
+body.tsd-fonts-manager #tsd-ggf-header ul li.tsd-ggf-load-time span.medium{
+	background: #bdc150;
+}
+body.tsd-fonts-manager #tsd-ggf-header ul li.tsd-ggf-load-time span.slow{
+	background: #c15050;
+}
+
+body.tsd-fonts-manager #tsd-ggf-header ul li.tsd-ggf-added:hover{
+	color: #fff;
+	background: #378e86;
+}
+body.tsd-fonts-manager .tsd-ggf-loading{
+	display: inline-block;
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+	color: #ccc;
+	text-transform: uppercase;
+}
+#tsd-ggf-render{
+    display: block;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+#tsd-fonts-manager .tsd-ggf-item{
+	float: left;
+    width: 31.33%;
+    margin: 1%;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.09);
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+#tsd-fonts-manager .tsd-ggf-item:nth-child(3n+1){
+	clear: both;
+}
+#tsd-fonts-manager .tsd-ggf-item h3{
+	margin: 0 0 14px 0;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: inherit;
+}
+#tsd-fonts-manager .tsd-ggf-item.unload:after{
+	position: absolute;
+	top: 24px;
+	left: 20px;
+	content: "loading...";
+	color: #aaa;
+}
+#tsd-fonts-manager .tsd-ggf-item.unload h3{
+	opacity: 0;
+}
+#tsd-fonts-manager .tsd-ggf-item .variants{
+	position: relative;
+	cursor: pointer;
+}
+#tsd-fonts-manager .tsd-ggf-item .variants:after{
+	font: normal normal normal 10px/1 simple-line-icons;
+    content: "\e604";
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    color: #aaa;
+}
+#tsd-fonts-manager .tsd-ggf-item .cat{
+	color: #aaa;
+}
+#tsd-fonts-manager .tsd-ggf-item select{
+    background: #e5e5e5;
+    border: none;
+    -webkit-appearance: none;
+    text-align: left;
+    padding: 1px 10px 1px 10px;
+    box-shadow: none;
+    color: #888;
+    font-size: 12px;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-left: 8px;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px;
+}
+#tsd-fonts-manager .tsd-ggf-item .variants:hover select,
+#tsd-fonts-manager .tsd-ggf-item select:hover{
+	opacity: 1;
+}
+#tsd-fonts-manager .tsd-ggf-item i[data-action]{
+	color: #aaa;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+	font-size: 20px;
+	opacity: 0;
+}
+#tsd-fonts-manager .tsd-ggf-item i[data-action="added"]{
+	display: none;
+}
+#tsd-fonts-manager .tsd-ggf-item.added i[data-action="add"]{
+	display: none;
+}
+
+#tsd-fonts-manager .tsd-ggf-item i[data-action="delete"]{
+	bottom: auto;
+	top: 10px;
+	right: 15px;
+	color: #c15050;
+}
+#tsd-fonts-manager .tsd-ggf-item i[data-action="delete"]:hover{
+	color: #9c3737;
+}
+#tsd-fonts-manager .tsd-ggf-item i[data-action="settings"]{
+	bottom: auto;
+	top: 45px;
+	right: 15px;
+	background: #fafafa;
+    padding: 0 0 0 20px;
+}
+
+#tsd-fonts-manager .tsd-ggf-item button:focus{
+	box-shadow: none;
+	outline: none;
+}
+#tsd-fonts-manager .tsd-ggf-item button:hover{
+	background: rgba(77, 182, 172, 0.76);
+}
+#tsd-fonts-manager .tsd-ggf-item:hover i[data-action]{
+	opacity: 1;
+}
+#tsd-fonts-manager-resource,
+#tsd-fonts-manager-api{
+	display: none;
+}
+#tsd-ggf-body .tsd-ggf-pagination{
+	clear: both;
+	display: block;
+}
+#tsd-ggf-body .tsd-ggf-pagination ul{
+	margin: 0px;
+	padding: 0px;
+}
+#tsd-ggf-body .tsd-ggf-pagination ul li{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 16px;
+    margin-right: 1px;
+    min-width: 10px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.03);
+    cursor: pointer;
+}
+#tsd-ggf-body .tsd-ggf-pagination ul li.inf{
+	box-shadow: none;
+    background: transparent;
+    color: #aaa;
+    cursor: default;
+}
+#tsd-ggf-body .tsd-ggf-pagination ul li.active,
+
+#tsd-ggf-hright{
+	float: right;
+	margin-top: 2em;
+}
+#tsd-ggf-hright input[type="search"]{
+    box-shadow: none;
+    height: 35px;
+    padding: 0 10px;
+    min-width: 250px;
+    color: #555;
+    float: left;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 14px;
+}
+#tsd-ggf-hright i.tsd-icon-magnifier{
+    box-shadow: none;
+    height: 36px;
+    padding: 0 15px;
+    color: #555;
+    background: transparent;
+    border: none;
+    margin-left: -53px;
+    float: right;
+    line-height: 36px;
+}
+#tsd-ggf-hright:hover i.tsd-icon-magnifier{
+	display: none;
+}
+.tsd-ggf-notfount{
+	padding: 120px 0 50px;
+	text-align: center;
+}
+.tsd-ggf-notfount .error-emoji {
+    color: rgba(0,0,0,0.4);
+    font-size: 120px;
+    display: inline-block;
+}
+.tsd-ggf-notfount .error-text {
+    color: rgba(0,0,0,0.4);
+    line-height: 21px;
+    margin-top: 60px;
+    white-space: pre-wrap;
+}
+#tsd-ggf-footer{
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+#tsd-ggf-message{
+    background: rgba(0,0,0,0.85);
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    padding: 14px;
+    border-radius: 3px;
+    color: #fff;
+    transform: translateX(-50%);
+    font-size: 14px;
+    box-shadow: 0px 0px 3px 0 rgba(0,0,0,0.35);
+    border: none;
+}
+#tsd-ggf-message.success{
+	background: rgba(80, 193, 80, 0.8);
+}
+#tsd-ggf-message.error{
+	background: rgba(194, 80, 80, 0.8);
+}
+#tsd-ggf-my-fonts{
+    display: none;
+    width: 100%;
+    background: #fff;
+    margin: 0px 0px 10px 0;
+    box-sizing: border-box;
+    position: relative;
+    top: -20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.09);
+}
+
+#tsd-ggf-my-fonts #tsd-ggf-mf-header i.tsd-icon-close{
+    float: right;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    cursor: pointer;
+}
+#tsd-ggf-my-fonts #tsd-ggf-mf-header span{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+#tsd-ggf-my-fonts #tsd-ggf-mf-header i{
+	color: rgba(247, 233, 191, 0.97);
+}
+#tsd-ggf-my-fonts #tsd-ggf-mf-header .tsd-icon-close:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+#tsd-ggf-my-fonts #tsd-ggf-mf-body{
+    padding: 1% 0px 1% 1%;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    font-size: 15px;
+}
+#tsd-ggf-my-fonts #tsd-ggf-mf-body .tsd-ggf-item{
+	box-shadow: none;
+	border: 1px solid #e5e5e5;
+	background: #fafafa;
+	width: 31%;
+}
+#tsd-ggf-my-fonts #tsd-ggf-mf-body .tsd-ggf-item .tsd-ggf-item-row{
+    display: none;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+    padding: 10px 0;
+}
+.tsd-ggf-item .tsd-ggf-item-row .tsd-ggf-col{
+    width: 50%;
+    line-height: 26px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.lumise-msg{
+    position: fixed;
+    top: 1px;
+    left: 50%;
+    max-width: 680px;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #333;
+    color: #eee;
+    font-size: 16px;
+    box-shadow: 0px 3px 10px 0 rgba(0,0,0,.3);
+}
+.lumise-msg[data-type="success"]{
+	background: #31b131;
+}
+.lumise-msg[data-type="warning"]{
+    background: #ecec8f;
+    color: #333;
+}
+.lumise-msg[data-type="error"]{
+	background: #ee6f6f;
+}

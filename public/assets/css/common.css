@@ -1,0 +1,6 @@
+form .error {
+  color: #ff0000;
+}
+input.form-control .sort-order-txt{
+  width:5%;
+}

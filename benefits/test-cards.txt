@@ -1,0 +1,7 @@
+4600#4101#2345#6789		Response code 00	Approved           
+4550#1201#2345#6789		Response code 54	Expired card       
+4889#7801#2345#6789		Response code 61	Limit exceeded     
+4415#5501#2345#6789		Response code 51	Insufficient funds 
+4575#5501#2345#6789		Response code 78	Refer to Issuer    
+4845#5501#2345#6789		Response code 55	Invalid pin        
+4895#5501#2345#6789		Response code 05	Please contact issuer

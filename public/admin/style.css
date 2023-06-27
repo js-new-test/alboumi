@@ -1,0 +1,18 @@
+
+.error
+{
+    color:red;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#photographer_count_details_div, #videographer_count_details_div, #album_included_yes_group
+{
+    border: 0.5px solid #0000001c;
+    padding: 3%;
+}
